@@ -1,0 +1,11 @@
+[project]
+name = "renovate-uv-git-plus"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "click",
+  "flask",
+]
+
+[tool.uv.sources]
+click = { git = "git+https://github.com/pallets/click", rev = "874ca2bc1c30d93a4ac6e36a15ed685eafe89097" }
